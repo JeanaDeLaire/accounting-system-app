@@ -24,6 +24,8 @@ This project was bootsrapped with Vite and includes a powerful and modern JS dev
 npm run dev
 ```
 
+Visit: [Vitejs Docs](https://vitejs.dev/guide/) for more info. 
+
 ## Testing
 
 Unit tests are included for each main component verifying data rendering and user action events. Run the test suite with: 
