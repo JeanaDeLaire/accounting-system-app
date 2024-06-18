@@ -28,6 +28,9 @@ npm run dev
 
 Visit: [Vitejs Docs](https://vitejs.dev/guide/) for more info. 
 
+## Run The API
+Follow the steps in the API README for setup and running the service: [HTTP API](https://github.com/JeanaDeLaire/accounting-system)
+
 ## Testing
 
 Unit tests are included for each main component verifying data rendering and user action events. Run the test suite with: 
