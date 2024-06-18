@@ -2,6 +2,8 @@
 
 This project offers a Simple Accounting System Frontend powered by React with Typescript. 
 
+<img width="1064" alt="Screenshot 2024-06-18 at 3 17 21 PM" src="https://github.com/JeanaDeLaire/accounting-system-app/assets/41646757/a0554a67-247b-472e-b5d7-afad1ef51301">
+
 ## Installation
 
 1. Clone this project to your machine and navigate to the project directory:
