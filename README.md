@@ -9,7 +9,7 @@ This project offers a Simple Accounting System Frontend powered by React with Ty
 1. Clone this project to your machine and navigate to the project directory:
 
 ```
-git clone hhttps://github.com/JeanaDeLaire/accounting-system-app.git
+git clone https://github.com/JeanaDeLaire/accounting-system-app.git
 ```
 
 2. Install dependencies:
