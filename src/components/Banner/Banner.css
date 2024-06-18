@@ -1,0 +1,10 @@
+.banner {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  min-height: 50px;
+  color: #fff;
+  margin-bottom: 20px;
+}

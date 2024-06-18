@@ -1,0 +1,97 @@
+.transaction-form {
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+}
+
+.transaction-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: #333;
+  background-color: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Ensure calendar icon has contrast against background */
+.form-group input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+
+.form-group
+  input[type="datetime-local"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #853585;
+  border-radius: 4px;
+  color: #333;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-button:hover {
+  background: #853585;
+  color: #fff;
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .transaction-form {
+    padding: 15px;
+  }
+
+  .transaction-form h2 {
+    font-size: 1.2em;
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  .submit-button {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+}
